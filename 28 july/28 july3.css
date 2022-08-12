@@ -1,0 +1,23 @@
+th{
+    background-color: grey;
+    padding: 10% 20%;
+}
+td{
+    background-color: lightgrey;
+    
+}
+
+tr #th1heading{
+    background-color: black;
+    color: white;
+    padding: 10% 20%;
+}
+table ,td,th{
+    border: 2px solid black;
+    padding: 2px;
+    
+}
+table{
+    margin:auto;
+    
+}
