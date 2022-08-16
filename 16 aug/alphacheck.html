@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function check_Alpha(letters){
+            if(letters.yourname.value==""){
+                alert("Name field cannot be left empty.");
+                letters.yourname.focus();
+                return false;
+            }
+            var regex=/^[a-zA-Z]+$/;
+            if(regex.test(letters.yourname.value)==false){
+                alert("Name field must be in the alphabets.");
+                letters.yourname.focus();
+                return false;
+            }
+            return true;
+
+        }
+    </script>
+    <form name="alphavalidate" action="welcome.html" method="post" onsubmit="return check_Alpha(this)">
+         <h3>Form Validation for Alphabet.</h3>
+         <input type="text" name="yourname">
+         <input type="submit" value="Submit">
+         <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

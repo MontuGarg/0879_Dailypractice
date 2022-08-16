@@ -26,9 +26,9 @@
     </script>
     <h3>Form Validation using RegExp</h3>
     <form name="zipvalidate" >
-        ZipCode :<input type="text" size="10" name="yourzip"><br>
-        <input type="submit" value="Validate Code" onclick="if(check_Zip(zipvalidate.yourzip)){alert('its a valid zipcode')}"><br>
-        <input type="submit" value="Reset" >
+        ZipCode :<input type="text" size="10" maxlength="5" name="yourzip"><br>
+        <input type="submit" value="Validate Code"  onclick="if(check_Zip(zipvalidate.yourzip)){alert('its a valid zipcode')}"><br>
+        <input type="reset" value="Reset" >
 
 
     </form>
