@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="n1"><input type="submit" onclick="myfun()"> <p id="demo"></p>
+    <script>
+        function myfun(){
+            document.getElementById("demo").innerHTML="hello";
+            let em=[]
+            em.push({
+                name:"paras",
+                age:19,
+                department:"CSE"
+            })
+            em.push({
+                name:"preet tyagi",
+                age:20,
+                department:"CSE"
+            })
+            em.push({
+                name:"himanshu",
+                age:18,
+                department:"CSE"
+            })
+            let x=document.getElementById("n1").value;
+            // let i=0;
+            // if(x==em[i].name){
+            //     document.getElementById("demo").innerHTML=x;
+            // }
+            try{
+                for(let i=0;i<3;i++){
+                     if(x==em[i].name){
+                        document.getElementById("demo").innerHTML="Name :"+em[i].name;
+                        document.getElementById("demo").innerHTML+="<br>Age :"+em[i].age;
+                        document.getElementById("demo").innerHTML+="<br>Department :"+em[i].department;
+                        break;
+                     }
+                     else if(i==2 && x!=em[i].name){
+                        throw "data not found";
+                     }
+                }
+            }
+            catch(err){
+                document.getElementById("demo").innerHTML=err;
+            }
+            
+            
+        }
+        
+        
+       
+    </script>
+</body>
+</html>
