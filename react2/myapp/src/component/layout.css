@@ -1,0 +1,11 @@
+.nav{
+    padding-top: 3%;
+    text-align: center;
+    background-color:gray ;
+}
+a{
+    margin: 2%;
+    font-size: 1cm;
+    text-decoration: none;
+    color:black;
+}

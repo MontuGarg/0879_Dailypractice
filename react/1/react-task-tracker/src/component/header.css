@@ -1,0 +1,13 @@
+.h2head{
+    color: darkcyan;
+   background-color: lightblue;
+}
+h3{
+    color: darkcyan;
+    background-color: lightblue;
+}
+.btn{
+    background-color: black;
+    width: 2cm;
+    color: white;
+}
