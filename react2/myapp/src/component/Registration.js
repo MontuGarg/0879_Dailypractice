@@ -1,35 +1,50 @@
-import './registration.css'
+import './registration.css';
+import {Link} from "react-router-dom";
 const Registration=()=>{
     return (
-        <div>
+        <div id='maindiv'>
+       <div id='div2' style={divstyle}>  
        <form>
         <table>
             <tr>
-                <td>Name:</td>
-                <td><input type="text" name="name" required/></td>
+                <td>First Name:<br/><input type="text" name="name" required/></td>
+                <td>Last Name:<br/><input type="text" name="name" required/></td>
             </tr>
             <tr>
-                <td>Email:</td>
-                <td><input type="email" name="email"required/></td>
+                
+                <td>Email:<br/><input type="email" name="email"required/></td>
+                <td>Phone Number:<br/><input type="number" name="number"required/></td>
             </tr>
             <tr>
-                <td>Mob. Number:</td>
-                <td><input type="number" name="number"required/></td>
+                <td></td>
+                <td></td>
             </tr>
             <tr>
-                <td>Password:</td>
-                <td><input type="password" name="password"required /></td>
+                <td>Password:<br/><input type="password" name="password"required /></td>
+                <td>Confirm Password:<br/><input type="password" name="password"required /></td>
 
             </tr>
             <tr>
-                <td colSpan="2">
-                    <input type="submit" name="submit" />
+                <td colSpan="2" id="agree">
+                    <input type="checkbox" name="checkbox"/><label name="checkbox" required >I agree to all <span>Terms </span>and <span>Privacy policy</span>.</label>
+                   
+                </td>
+            </tr>
+            <tr>
+                <td colSpan="2" id="agree">
+                   <Link to="/login"><button id="btn">Create Account</button></Link>
                 </td>
             </tr>
 
+
         </table>
        </form>
+       </div>   
        </div>
     )
+}
+const divstyle={
+   border:"2px solid black",
+   
 }
 export default Registration;

@@ -1,11 +1,12 @@
 .nav{
     padding-top: 3%;
     text-align: center;
-    background-color:gray ;
+    background-color:#0071ff ;
+    
 }
 a{
     margin: 2%;
     font-size: 1cm;
     text-decoration: none;
-    color:black;
+    color:white;
 }
