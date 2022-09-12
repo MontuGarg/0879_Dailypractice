@@ -6,9 +6,7 @@ const head=({title})=>{
         console.log('click',e);
     }
     return (
-
         <header>
-           
             <h1 style={headingStyle}> {title}</h1>
             <button className="btn">Add</button>
             <Button onClick={onClick} color="green" text="hello1"/>
