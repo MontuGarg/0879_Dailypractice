@@ -1,16 +1,13 @@
 import React from 'react';
-import './App.css';
-import Test from './component/Test';
-import Abcd from './component/Abcd';
-function App() {
-  return (
-    
-    <div >
-        <Test/>
-        <Abcd/>
-        <Abcd/>
-    </div>
-  );
+import Form from './Form';
+import Test from './Test';
+const App=()=>{
+    return(
+        // react fragment
+        <>
+           <Test/>
+        </>
+    )
 }
 
 

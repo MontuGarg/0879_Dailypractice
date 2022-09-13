@@ -27,7 +27,7 @@ function Close_p(){
 const Output=(val2)=>{
     document.getElementById("para").style.display='inline';
     document.getElementById("hidden").style.transitionDuration='1s';
-    document.getElementById("display").style.opacity="0.6";       
+    document.getElementById("display").style.opacity="0.8";       
     let val=document.getElementById("search").value;
     val=Number(val);
     if(val2=="Moon"){
