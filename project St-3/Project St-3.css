@@ -111,8 +111,7 @@ span{
 
 #para{
     display:none;
-    
-   text-align: center;
+    display:none;
     margin-top:20% ;
     width:400px;
     position:fixed;
@@ -135,10 +134,11 @@ span{
     margin-left: 17%;
 }
 #heading{
-    background-color: grey;
+#heading{
+    text-shadow: 10px 10px 20px white;
     text-align: center;
     font-family: cursive;
-    opacity: 0.8;
+    font-family: cursive;
 }
 #main_heading{
     margin-top: -2%;
@@ -187,6 +187,7 @@ span{
     text-decoration: none;
     color: white;
     font-weight: bold;
+}
 }
 @media only screen and (max-width:1200px){
     .planets{
@@ -253,6 +254,7 @@ span{
         float: none;
         height: 50%;
         overflow:hidden;
+    }
     }
    
 }

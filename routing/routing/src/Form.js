@@ -1,22 +1,13 @@
-import React from 'react'
+import React ,{useState}from 'react'
 
-const Form = () => {
+export default function Form() {
+    
   return (
     <div>
-       <form>
-        <table>
-            <tr>
-                <td>
-                    First Name :
-                </td>
-                <td>
-                    <input type="text" />
-                </td>
-            </tr>
-        </table>
-       </form>
+        <form>
+            <input type={"text"} name={"n1"} ></input>
+        </form>
+        
     </div>
   )
 }
-
-export default Form;
