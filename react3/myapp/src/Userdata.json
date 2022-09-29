@@ -1,0 +1,20 @@
+[
+    {
+        "Name":"Montu",
+        "Mobile":1234,
+        "Email":"Montu3@gmail.com",
+        "Address":"Punjab"
+    },
+    {
+        "Name":"Paras",
+        "Mobile":4321,
+        "Email":"Paras3@gmail.com",
+        "Address":"Punjab"
+    },
+    {
+        "Name":"Tyagi",
+        "Mobile":4321,
+        "Email":"Tyagi3@gmail.com",
+        "Address":"Uttar Pradesh"
+    }
+]

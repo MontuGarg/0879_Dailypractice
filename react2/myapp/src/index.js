@@ -7,6 +7,7 @@ import Welcome from './component/Welcome';
 import Registration from './component/Registration';
 import Login from './component/login';
 import Layout from './component/layout';
+import About from './component/about';
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 export default function App(){
   return (
@@ -14,6 +15,7 @@ export default function App(){
         <Routes>
              <Route path='/' element={<Layout/>}>
                <Route exist path="Welcome" element={<Welcome/>}/>
+               <Route path="about" element={<About/>}/>
                <Route path="registration" element={<Registration/>}/>
                <Route path="login" element={<Login/>}/>
              </Route>

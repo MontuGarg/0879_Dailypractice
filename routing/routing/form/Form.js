@@ -5,7 +5,6 @@ const Form_three = () => {
   const handleSubmit=(event)=>{
     event.preventDefault();
     console.log(name);
-   
   }
   return (
     <div>

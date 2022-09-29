@@ -32,7 +32,7 @@ const Registration=()=>{
             </tr>
             <tr>
                 <td colSpan="2" id="agree">
-                   <Link to="/login"><button id="btn">Create Account</button></Link>
+                   <Link to="/login"><button className="btn blue">Create Account</button></Link>
                 </td>
             </tr>
 
