@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "name": "kapil",
+      "username": "kapil007",
+      "email": "kapil@gmail.com",
+      "password": "1234",
+      "id": 12
+    },
+    {
+      "name": "Preet tyagi",
+      "username": "tyagi69",
+      "email": "tyagi69@gmail.com",
+      "password": "1234",
+      "id": 13
+    },
+    {
+      "name": "paras",
+      "username": "paras123",
+      "email": "Paras123@gmail.com",
+      "password": "1234",
+      "id": 14
+    },
+    {
+      "name": "punit",
+      "username": "punit45",
+      "email": "punit@gmail.com",
+      "password": "1234",
+      "id": 15
+    },
+    {
+      "name": "montu",
+      "username": "montu",
+      "email": "montu@gmail.com",
+      "password": "1234",
+      "id": 16
+    },
+    {
+      "name": "sahil",
+      "username": "sahil44",
+      "email": "sahil@gmail.com",
+      "password": "1234",
+      "id": 17
+    },
+    {
+      "name": "paraslodu",
+      "username": "parasss",
+      "email": "pararandi321@gmail.com",
+      "password": "lola",
+      "id": 18
+    },
+    {
+      "name": "rafiq",
+      "username": "rafiq54",
+      "email": "rafiq@gmail.com",
+      "password": "1234",
+      "id": 19
+    },
+    {
+      "name": "ayush",
+      "username": "kajsk",
+      "email": "ayush@gmail.com",
+      "password": "1234",
+      "id": 20
+    }
+  ]
+}
